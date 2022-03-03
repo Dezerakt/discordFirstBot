@@ -9,7 +9,7 @@ client.MessageReceived += CommandHandler;
 client.Log += Log;
 
 
-var token = "OTQ3MzgzMTU4ODcyMDkyNzMz.YhsdUg.GN1ZLo2VeSp7D4IAsy9rx8Ki9A4";
+var token = "token";
 
 await client.LoginAsync(TokenType.Bot, token);
 await client.StartAsync();
